@@ -1,0 +1,124 @@
+footer {
+    background-color: #080a3c;
+    background-image: url("../img/footer-shape2.png");
+    position: relative;
+    .container {
+        .row {
+            .foot-strax {
+                display: flex;
+                padding-top: 40px;
+                .strax-logo {
+                    padding: 12px;
+                    a {
+                        display: inline-block;
+                        margin-bottom: 19px;
+                    }
+                    p {
+                        color: #acc5db;
+                        font-size: 15px;
+                        line-height: 1.4;
+                        font-weight: 500;
+                        letter-spacing: 1.3px;
+                    }
+                }
+                .foot-company {
+                    padding: 12px;
+                    h3 {
+                        color: #fff;
+                        margin-bottom: 29px;
+                        font-weight: 600;
+                        font-size: 21px;
+                    }
+                    ul {
+                        padding: 0;
+                        list-style-type: none;
+                        li {
+                            margin-bottom: 10px;
+                            a {
+                                text-decoration: none;
+                                color: rgb(172, 197, 219);
+                                transition: all 0.3s linear;
+                                font-size: 15px;
+                                &:hover {
+                                    color: #13c4a1;
+                                    margin-left: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .foot-info {
+                    padding: 12px;
+                    h3 {
+                        color: #fff;
+                        margin-bottom: 29px;
+                        font-weight: 600;
+                        font-size: 21px;
+                    }
+                    .foot-contact {
+                        padding: 0;
+                        list-style-type: none;
+                        li {
+                            margin-bottom: 10px;
+                            color: #fff;
+                            a {
+                                text-decoration: none;
+                                color: rgb(172, 197, 219);
+                                margin-left: 4px;
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    color: #13c4a1;
+                                }
+                            }
+                        }
+                    }
+                    .foot-social {
+                        list-style-type: none;
+                        padding: 0;
+                        display: flex;
+                        li {
+                            a {
+                                width: 30px;
+                                height: 30px;
+                                display: inline-block;
+                                text-align: center;
+                                line-height: 2.1;
+                                padding-left: 3px;
+                                border-radius: 3px;
+                                background-color: #4e6e8a;
+                                color: #080a3c;
+                                margin-right: 6px;
+                                text-decoration: none;
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    background-color: #fff;
+                                }
+                                i {}
+                            }
+                        }
+                    }
+                }
+            }
+            .copy-right {
+                .foot-copy {
+                    p {
+                        border-top: 1px solid #1c2250;
+                        color: rgb(172, 197, 219);
+                        font-size: 15px;
+                        text-align: center;
+                        margin: 0px;
+                        padding: 31px 0px;
+                        a {
+                            color: #c32f00;
+                            transition: all 0.3s linear;
+                            text-decoration: none;
+                            &:hover {
+                                color: #13c4a1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

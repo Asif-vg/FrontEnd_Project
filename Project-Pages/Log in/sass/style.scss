@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    main {
+        #contact {
+            .row {
+                width: 100%;
+                .custom-login {
+                    display: flex;
+                    .contact-image {
+                        img {
+                            width: 100%;
+                            height: 657px;
+                        }
+                    }
+                    .contact-login {
+                        text-align: center;
+                        .contact-logo {
+                            margin: 50px 35px;
+                            a {}
+                        }
+                        h3 {
+                            color: #080a3c;
+                            font-size: 40px;
+                            font-weight: 600;
+                            letter-spacing: 2.2px;
+                        }
+                        p {
+                            color: #4a6f8a;
+                            line-height: 1.8;
+                            font-size: 15px;
+                        }
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            max-width: 500px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            .input {
+                                background-color: #fff;
+                                color: #080a3c;
+                                border: none;
+                                box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, .2)!important;
+                                height: 55px;
+                                font-size: 14px;
+                                display: block;
+                                width: 100%;
+                                padding: 0.375rem 0.750rem;
+                                outline: none;
+                                border-radius: 4px;
+                            }
+                            button {
+                                border: none;
+                                display: inline-block;
+                                color: #fff;
+                                background-color: #ff612f;
+                                border-radius: 5px;
+                                font-weight: 500;
+                                font-size: 15px;
+                                padding: 13px 50px 13px;
+                                transition: all 0.3s linear;
+                                position: relative;
+                                &:hover {
+                                    background-color: #13c4a1;
+                                }
+                                i {
+                                    color: #080a3c;
+                                    position: absolute;
+                                    left: 27px;
+                                    top: 16px;
+                                }
+                            }
+                            .login-forgot {
+                                text-align: end;
+                                a {
+                                    display: inline-block;
+                                    font-size: 17px;
+                                    color: #13c4a1;
+                                    transition: all 0.3s linear;
+                                    &:hover {
+                                        color: #ff612f;
+                                    }
+                                }
+                            }
+                        }
+                        .contact-social {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            max-width: 500px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            button {
+                                background-color: #fff;
+                                border: 1px solid;
+                                border-radius: 3px;
+                                position: relative;
+                                padding: 8px 0px;
+                                font-size: 16px;
+                                font-weight: 500;
+                                transition: all 0.3s linear;
+                                i {
+                                    position: absolute;
+                                    left: 23px;
+                                    top: 12px;
+                                }
+                            }
+                            .b1 {
+                                border-color: #3b5998;
+                                color: #3b5998;
+                                i {
+                                    color: #3b5998;
+                                }
+                                &:hover {
+                                    background-color: #3b5998;
+                                    color: #fff;
+                                    i {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            .b2 {
+                                border-color: #ea4335;
+                                color: #ea4335;
+                                margin-top: 10px;
+                                i {
+                                    color: #ea4335;
+                                }
+                                &:hover {
+                                    background-color: #ea4335;
+                                    color: #fff;
+                                    i {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1126px) {
+    main {
+        #contact {
+            .custom-login {
+                // flex-direction: column;
+                .contact-image {
+                    img {
+                        width: 102.9% !important;
+                    }
+                }
+                .contact-login {
+                    padding: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        #contact {
+            .custom-login {
+                flex-direction: column;
+                .contact-image {
+                    img {
+                        width: 102.9% !important;
+                    }
+                }
+                .contact-login {
+                    padding: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        #contact {
+            .custom-login {
+                flex-direction: column;
+                .contact-image {
+                    img {
+                        width: 102.9% !important;
+                    }
+                }
+                .contact-login {
+                    padding: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    main {
+        #contact {
+            .custom-login {
+                flex-direction: column;
+                .contact-image {
+                    img {
+                        width: 102.9% !important;
+                    }
+                }
+            }
+        }
+    }
+}

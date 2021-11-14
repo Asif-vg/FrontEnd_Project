@@ -1,0 +1,1083 @@
+    body {
+        main {
+            #service-detail-bg {
+                background-color: #ff612f;
+                .container {
+                    .row {
+                        .details-bg {
+                            padding: 130px;
+                            h3 {
+                                text-align: center;
+                                color: #fff;
+                                font-size: 40px;
+                                font-weight: 600;
+                            }
+                            p {
+                                font-size: 15px;
+                                color: #fff;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            #about-business {
+                padding-top: 100px;
+                padding-bottom: 100px;
+                .container {
+                    .row {
+                        .business-head {
+                            span {
+                                color: #ff612f;
+                                margin-bottom: 7px;
+                                display: block;
+                            }
+                            h2 {
+                                color: #080a3c;
+                                font-size: 40px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: #4a6f8a;
+                                margin-bottom: 12 px;
+                                line-height: 1.8;
+                                font-size: 15px;
+                            }
+                        }
+                        .business-img {
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            #about-imza {
+                padding: 70px 0px;
+                background-color: #f8fbfa;
+                .container {
+                    .row {
+                        .col-lg-3 {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        .col-lg-9 {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        .imza-title {
+                            h3 {
+                                color: #8791b0;
+                                margin-bottom: 0;
+                                font-size: 22px;
+                                font-weight: 500;
+                            }
+                        }
+                        .customs-carusel {
+                            .imza-img {
+                                cursor: pointer;
+                                transform: scale(0.9);
+                                transition: all 0.3s linear;
+                                img {
+                                    width: 172px;
+                                    height: 25px;
+                                }
+                                &:hover {
+                                    transform: scale(1);
+                                }
+                            }
+                            .owl-dots {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            #video-strax {
+                padding-top: 100px;
+                position: relative;
+                .container {
+                    .row {
+                        .video-head {
+                            h2 {
+                                color: #080a3c;
+                                font-size: 40px;
+                                font-weight: 600;
+                                text-align: center;
+                                padding: 0px 254px 45px;
+                            }
+                        }
+                        .video-body {
+                            text-align: center;
+                            position: relative;
+                            max-height: 498px;
+                            .video-img {
+                                position: relative;
+                                z-index: 1;
+                                img {
+                                    width: 713px;
+                                    height: 497px;
+                                }
+                            }
+                            a {
+                                position: absolute;
+                                top: 43%;
+                                left: 47%;
+                                background: #ff612f;
+                                padding: 15px 22px 15px;
+                                border-radius: 8px;
+                                position: absolute;
+                                z-index: 2;
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    background-color: #13c4a1;
+                                    &::before {
+                                        border: 1px solid #13c4a1;
+                                    }
+                                    &::after {
+                                        border: 1px solid #13c4a1;
+                                    }
+                                }
+                                &::before {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    z-index: -1;
+                                    bottom: 0;
+                                    left: 0;
+                                    border-radius: 5px;
+                                    border: 1px solid #ff612f;
+                                    transition: 0.5s;
+                                    animation: videoa 1.8s linear infinite;
+                                    transform: scale(1.5);
+                                }
+                                &::after {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    z-index: -1;
+                                    bottom: 0;
+                                    left: 0;
+                                    border-radius: 5px;
+                                    border: 1px solid #ff612f;
+                                    transition: 0.5s;
+                                    animation: videoa 2s linear infinite;
+                                    transform: scale(2);
+                                }
+                                i {
+                                    font-size: 48px;
+                                    color: #fff
+                                }
+                            }
+                            .video-figure1 {
+                                position: absolute;
+                                top: -29px;
+                                left: 159px;
+                            }
+                            .video-figure2 {
+                                position: absolute;
+                                top: -25px;
+                                left: 170px;
+                                animation: vfigure2 3s linear infinite;
+                            }
+                            .video-figure3 {
+                                position: absolute;
+                                right: 198px;
+                                top: -19px;
+                                animation: vfigure3 3s ease-in infinite;
+                                transform: scale(1);
+                            }
+                            .video-figure4 {
+                                position: absolute;
+                                bottom: 177px;
+                                left: 37px;
+                                animation: vfigure4 3s linear infinite;
+                            }
+                            .video-figure5 {
+                                position: absolute;
+                                bottom: -47px;
+                                left: 168px;
+                                animation: vfigure5 3s linear infinite;
+                                transform: scale(1);
+                            }
+                            .video-figure6 {
+                                position: absolute;
+                                bottom: -23px;
+                                right: 196px;
+                            }
+                            .video-figure7 {
+                                position: absolute;
+                                bottom: -47px;
+                                right: 176px;
+                                z-index: -1;
+                            }
+                            .video-figure8 {
+                                position: absolute;
+                                animation: vfigure8 10s linear infinite reverse;
+                            }
+                            .video-figure9 {
+                                position: absolute;
+                                right: 14px;
+                                bottom: 153px;
+                                animation: vfigure9 10s linear infinite reverse;
+                            }
+                        }
+                        .video-counter {
+                            padding-top: 144px;
+                            .row {
+                                .counter-items {
+                                    background-color: #fff;
+                                    padding: 30px 0px;
+                                    text-align: center;
+                                    border-radius: 5px;
+                                    margin-bottom: 80px;
+                                    i {
+                                        color: #13c4a1;
+                                        font-size: 20px;
+                                        width: 70px;
+                                        height: 70px;
+                                        background: #f6f4fd;
+                                        border-radius: 100%;
+                                        line-height: 3.4;
+                                        margin-bottom: 15px;
+                                    }
+                                    h3 {
+                                        font-size: 30px;
+                                        font-weight: 600;
+                                        color: #ff612f;
+                                        margin: 0;
+                                        span {
+                                            // margin-left: 5px;
+                                        }
+                                    }
+                                    p {
+                                        font-size: 15px;
+                                        color: #4a6f8a;
+                                    }
+                                }
+                                .video-question {
+                                    position: relative;
+                                    border: 1px solid #f1f1f1;
+                                    padding: 27px 35px 15px;
+                                    border-radius: 5px;
+                                    max-width: 814px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    h3 {
+                                        color: #080a3c;
+                                        font-size: 22px;
+                                        font-weight: 600;
+                                    }
+                                    p {
+                                        color: #4a6f8a;
+                                        font-size: 15px;
+                                    }
+                                    a {
+                                        position: absolute;
+                                        right: 60px;
+                                        bottom: 33px;
+                                        text-decoration: none;
+                                        background-color: #13c4a1;
+                                        color: #fff;
+                                        padding: 12px 31px;
+                                        border-radius: 5px;
+                                        font-size: 15px;
+                                        i {
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .video-imgs {
+                            position: absolute;
+                            // left: 0px;
+                            bottom: 0px;
+                            max-width: 700px;
+                            margin-right: auto;
+                            margin-left: auto;
+                            img {}
+                        }
+                    }
+                }
+            }
+            #meet {
+                padding-top: 100px;
+                padding-bottom: 80px;
+                .container {
+                    .row {
+                        .meet-head {
+                            h2 {
+                                font-size: 40px;
+                                font-weight: 600;
+                                line-height: 1.2;
+                                text-align: center;
+                                padding: 0px 240px 0px;
+                                color: #080a3c;
+                            }
+                        }
+                        .meet-person {
+                            display: flex;
+                            margin-top: 45px;
+                            flex-wrap: wrap;
+                            .meet-info {
+                                margin-bottom: 35px;
+                                margin-right: 15px;
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    #img1 {
+                                        border-color: #ff612f;
+                                    }
+                                    #img2 {
+                                        border-color: #13c4a1;
+                                    }
+                                    #img3 {
+                                        border-color: #080a3c;
+                                    }
+                                    #img4 {
+                                        border-color: #fc4c86;
+                                    }
+                                    .meet-image {
+                                        li {
+                                            bottom: 0px;
+                                            visibility: visible;
+                                            opacity: 1;
+                                        }
+                                    }
+                                    & .a1:hover {
+                                        background-color: #ff612f;
+                                        i {
+                                            color: white;
+                                        }
+                                    }
+                                    & .a2:hover {
+                                        background-color: #13c4a1;
+                                        i {
+                                            color: white;
+                                        }
+                                    }
+                                    & .a3:hover {
+                                        background-color: #080a3c;
+                                        i {
+                                            color: white;
+                                        }
+                                    }
+                                    & .a4:hover {
+                                        background-color: #fc4c86;
+                                        i {
+                                            color: white;
+                                        }
+                                    }
+                                }
+                                .meet-image {
+                                    text-align: center;
+                                    border: 4px solid;
+                                    padding: 8px 7px;
+                                    border-radius: 10px;
+                                    position: relative;
+                                    transition: all 0.3s linear;
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 10px;
+                                    }
+                                    ul {
+                                        list-style-type: none;
+                                        display: flex;
+                                        position: absolute;
+                                        bottom: 7px;
+                                        left: 17px;
+                                        right: 0;
+                                        padding: 0;
+                                        justify-content: center;
+                                        li {
+                                            margin-right: 5px;
+                                            position: relative;
+                                            bottom: -34px;
+                                            transition: all 0.3s linear;
+                                            visibility: hidden;
+                                            opacity: 0;
+                                            &:nth-child(1) {
+                                                transition-delay: 0.1s;
+                                            }
+                                            &:nth-child(2) {
+                                                transition-delay: 0.2s;
+                                            }
+                                            &:nth-child(3) {
+                                                transition-delay: 0.3s;
+                                            }
+                                            &:nth-child(4) {
+                                                transition-delay: 0.4s;
+                                            }
+                                            a {
+                                                display: block;
+                                                width: 33px;
+                                                height: 33px;
+                                                background-color: #f4f5fe;
+                                                text-align: center;
+                                                position: relative;
+                                                font-size: 20px;
+                                                color: #080a3c;
+                                                border-radius: 2px;
+                                                font-size: 16px;
+                                                line-height: 2.3;
+                                                padding-left: 2px;
+                                                transition: all 0.3s linear;
+                                                i {
+                                                    transition: all 0.3s linear;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                #img1 {
+                                    border-color: #ffdacf;
+                                }
+                                #img2 {
+                                    border-color: #bce9e5;
+                                }
+                                #img3 {
+                                    border-color: #b2b3c3;
+                                }
+                                #img4 {
+                                    border-color: #fed2e1;
+                                }
+                                .meet-content {
+                                    margin-top: 20px;
+                                    h3 {
+                                        text-align: center;
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        color: #080a3c;
+                                    }
+                                    p {
+                                        text-align: center;
+                                        font-size: 14px;
+                                    }
+                                    #p1 {
+                                        color: #ff612f;
+                                    }
+                                    #p2 {
+                                        color: #13c4a1;
+                                    }
+                                    #p3 {
+                                        color: #080a3c;
+                                    }
+                                    #p4 {
+                                        color: #fc4c86;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #strax-download {
+                background-image: url("../img/white-bg.jpg");
+                .container {
+                    .row {
+                        padding: 100px 0px;
+                        .download-img {
+                            img {}
+                        }
+                        .download-body {
+                            padding-top: 110px;
+                            p {
+                                display: inline-block;
+                                background-color: #13c4a1;
+                                color: #fff;
+                                padding: 5px 25px;
+                                border-radius: 35px;
+                                margin-bottom: 15px;
+                                font-size: 14px;
+                            }
+                            h2 {
+                                font-size: 40px;
+                                font-weight: 500;
+                                margin-bottom: 20px;
+                                color: #080a3c;
+                            }
+                            .download-link {
+                                margin-top: 40px;
+                                a {
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    background-color: #fff;
+                                    font-size: 13px;
+                                    border-radius: 5px;
+                                    color: #666786;
+                                    margin-right: 8px;
+                                    padding: 12px 25px 12px 70px;
+                                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+                                    position: relative;
+                                    transition: all 0.3s linear;
+                                    img {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 24px;
+                                        transform: translateY(-50%);
+                                    }
+                                    span {
+                                        display: block;
+                                        color: #080a3c;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                            .da1 {
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    transform: translateY(-5px);
+                                }
+                            }
+                            .da2 {
+                                transition: all 0.3s linear;
+                                &:hover {
+                                    transform: translateY(-5px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #said-strax {
+                padding-top: 100px;
+                padding-bottom: 100px;
+                .container {
+                    .row {
+                        .said-head {
+                            text-align: center;
+                            margin-bottom: 100px;
+                            h3 {
+                                font-size: 40px;
+                                font-weight: 600;
+                                color: #080a4c;
+                                padding: 0px 259px;
+                                span {
+                                    color: #ff612f;
+                                }
+                            }
+                        }
+                        .said-body {
+                            display: flex;
+                            .said-text {
+                                height: 310px;
+                                display: flex;
+                                box-shadow: 0 10px 35px 5px rgba(137, 173, 255, 0.15);
+                                margin-right: 55px;
+                                position: relative;
+                                .said-img {
+                                    position: absolute;
+                                    top: 0;
+                                    left: -9px;
+                                }
+                                .said-content {
+                                    position: absolute;
+                                    right: 0;
+                                    width: 67%;
+                                    padding: 21px;
+                                    p {
+                                        color: #4a6f8a;
+                                        line-height: 1.8;
+                                        font-size: 14px;
+                                    }
+                                    .said-icon {
+                                        i {
+                                            font-size: 17px;
+                                            margin-right: 1px;
+                                            color: #ff612f;
+                                        }
+                                    }
+                                    h3 {
+                                        font-size: 18px;
+                                        font-weight: 500;
+                                        color: #080c4a;
+                                        margin: 0;
+                                        padding-top: 16px;
+                                    }
+                                    span {
+                                        display: block;
+                                        color: #13c4a1;
+                                        font-size: 14px;
+                                        margin-top: 6px;
+                                    }
+                                }
+                                .said-quote {
+                                    position: absolute;
+                                    right: 10px;
+                                    bottom: -12px;
+                                    color: #f5f5f5;
+                                    font-size: 124px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #about-practice {
+                position: relative;
+                background-color: #f4f5fe;
+                padding-bottom: 80px;
+                .container {
+                    .row {
+                        .practice {
+                            text-align: center;
+                            h2 {
+                                font-size: 40px;
+                                font-weight: 500;
+                                color: #080a3c;
+                                padding: 90px 212px 0px;
+                                margin-bottom: 20px;
+                            }
+                            p {
+                                font-size: 15px;
+                                color: #706e6e;
+                                margin-bottom: 30px;
+                            }
+                            a {
+                                text-decoration: none;
+                                display: inline-block;
+                                color: #fff;
+                                background-color: #ff612f;
+                                padding: 14px 30px;
+                                border-radius: 5px;
+                                transition: all 0.3s linear;
+                                i {
+                                    margin-right: 5px;
+                                    color: #080a3c;
+                                }
+                                &:hover {
+                                    background-color: #13c4a1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .p-figure1 {
+                    position: absolute;
+                    right: 422px;
+                    bottom: 85px;
+                    animation: pf1 16s linear infinite;
+                }
+                .p-figure2 {
+                    position: absolute;
+                    top: 42px;
+                    left: 161px;
+                    animation: pf2 16s linear infinite;
+                }
+                .p-figure3 {
+                    position: absolute;
+                    top: 45px;
+                    right: 237px;
+                    animation: pf3 16s linear infinite;
+                }
+                .p-figure4 {
+                    position: absolute;
+                    bottom: 70px;
+                    left: 335px;
+                    animation: pf4 3s linear infinite;
+                }
+            }
+        }
+    }
+    
+    .circle {
+        position: fixed;
+        bottom: -40px;
+        height: 45px;
+        width: 45px;
+        right: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0px 1px 10px #706e6e;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        opacity: 0;
+        &.active {
+            opacity: 1;
+            bottom: 15px;
+            &:hover {
+                bottom: 25px;
+                background-color: #ff612f;
+                box-shadow: none;
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        i {
+            padding: 13px 14px;
+            font-size: 19px;
+            font-weight: 600;
+            transition: all 0.3s linear;
+            border-radius: 40px;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        body {
+            main {
+                #about-imza {
+                    text-align: center;
+                    h3 {
+                        margin-bottom: 20px !important;
+                        font-size: 18px !important;
+                    }
+                }
+                #video-strax {
+                    .video-head {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 0px 54px 45px !important;
+                        }
+                    }
+                    .video-body {
+                        .video-figure1 {
+                            display: none;
+                        }
+                        .video-figure2 {
+                            display: none;
+                        }
+                        .video-figure3 {
+                            display: none;
+                        }
+                        .video-figure4 {
+                            display: none;
+                        }
+                        .video-figure5 {
+                            display: none;
+                        }
+                        .video-figure6 {
+                            display: none;
+                        }
+                        .video-figure7 {
+                            display: none;
+                        }
+                        .video-figure8 {
+                            display: none;
+                        }
+                        .video-figure9 {
+                            display: none;
+                        }
+                        .video-img {
+                            img {
+                                width: 499px !important;
+                                height: 499px !important;
+                            }
+                        }
+                    }
+                    .video-counter {
+                        .video-question {
+                            a {
+                                bottom: 11px !important;
+                            }
+                        }
+                    }
+                    .video-imgs {
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+                #meet {
+                    .meet-head {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 0px 57px 0px !important;
+                        }
+                    }
+                }
+                #strax-download {
+                    text-align: center !important;
+                    .download-body {
+                        h2 {
+                            font-size: 30px !important;
+                        }
+                    }
+                }
+                #said-strax {
+                    .said-head {
+                        h3 {
+                            font-size: 30px !important;
+                            padding: 0 !important;
+                        }
+                    }
+                }
+                #about-practice {
+                    .practice {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 90px 86px 0px !important;
+                        }
+                    }
+                    .p-figure1 {
+                        display: none;
+                    }
+                    .p-figure2 {
+                        display: none;
+                    }
+                    .p-figure3 {
+                        display: none;
+                    }
+                    .p-figure4 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        body {
+            main {
+                #about-imza {
+                    text-align: center;
+                    h3 {
+                        margin-bottom: 20px !important;
+                        font-size: 18px !important;
+                    }
+                }
+                #video-strax {
+                    .video-head {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 0px 54px 45px !important;
+                        }
+                    }
+                    .video-body {
+                        .video-figure1 {
+                            display: none;
+                        }
+                        .video-figure2 {
+                            display: none;
+                        }
+                        .video-figure3 {
+                            display: none;
+                        }
+                        .video-figure4 {
+                            display: none;
+                        }
+                        .video-figure5 {
+                            display: none;
+                        }
+                        .video-figure6 {
+                            display: none;
+                        }
+                        .video-figure7 {
+                            display: none;
+                        }
+                        .video-figure8 {
+                            display: none;
+                        }
+                        .video-figure9 {
+                            display: none;
+                        }
+                        .video-img {
+                            img {
+                                width: 499px !important;
+                                height: 499px !important;
+                            }
+                        }
+                    }
+                    .video-counter {
+                        .video-question {
+                            a {
+                                bottom: 11px !important;
+                            }
+                        }
+                    }
+                    .video-imgs {
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+                #meet {
+                    .meet-head {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 0px 57px 0px !important;
+                        }
+                    }
+                }
+                #strax-download {
+                    text-align: center !important;
+                    .download-body {
+                        h2 {
+                            font-size: 30px !important;
+                        }
+                    }
+                }
+                #said-strax {
+                    .said-head {
+                        h3 {
+                            font-size: 30px !important;
+                            padding: 0 !important;
+                        }
+                    }
+                }
+                #about-practice {
+                    .practice {
+                        h2 {
+                            font-size: 30px !important;
+                            padding: 90px 86px 0px !important;
+                        }
+                    }
+                    .p-figure1 {
+                        display: none;
+                    }
+                    .p-figure2 {
+                        display: none;
+                    }
+                    .p-figure3 {
+                        display: none;
+                    }
+                    .p-figure4 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width:576px) {
+        #about-imza {
+            text-align: center;
+            h3 {
+                margin-bottom: 20px !important;
+                font-size: 18px !important;
+            }
+        }
+        #video-strax {
+            .video-counter {
+                .video-question {
+                    a {
+                        right: 29px !important;
+                    }
+                }
+            }
+        }
+    }
+    
+    @keyframes vfigure2 {
+        0% {
+            left: 167px;
+        }
+        50% {
+            left: 170px;
+        }
+        75% {
+            left: 173px;
+        }
+        100% {
+            left: 175px;
+        }
+    }
+    
+    @keyframes vfigure3 {
+        0% {
+            transform: scale(1.2);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        50% {
+            transform: scale(1);
+        }
+        75% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1.2);
+        }
+    }
+    
+    @keyframes vfigure4 {
+        0% {
+            bottom: 177px;
+        }
+        50% {
+            bottom: 167px;
+        }
+        100% {
+            bottom: 177px;
+        }
+    }
+    
+    @keyframes vfigure5 {
+        0% {
+            transform: scale(1.2);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        50% {
+            transform: scale(1);
+        }
+        75% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1.2);
+        }
+    }
+    
+    @keyframes vfigure8 {
+        0% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes vfigure9 {
+        0% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes videoa {
+        0% {
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes pf1 {
+        0% {
+            transform: rotate(-360deg);
+        }
+    }
+    
+    @keyframes pf2 {
+        0% {
+            transform: rotate(-360deg);
+        }
+    }
+    
+    @keyframes pf3 {
+        0% {
+            transform: rotate(-360deg);
+        }
+    }
+    
+    @keyframes pf4 {
+        0% {
+            transform: translateY(0px);
+        }
+        25% {
+            transform: translateY(2.5px);
+        }
+        50% {
+            transform: translateY(5px);
+        }
+        75% {
+            transform: translateY(7.5px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
